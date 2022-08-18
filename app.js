@@ -74,14 +74,28 @@ const menu = [
   ];
 
   const sectionCenter = document.querySelector(".section-center");
+  const filterBtns = document.querySelectorAll('.filter-btn')
 
+    
+// Load Items
 window.addEventListener("DOMContentLoaded", function () {
   displayMenuItems(menu);
 });
-  
+
+// Filter Items
+filterBtns.forEach(function(btn) {
+  btn.addEventListener('click',function(e){
+    console.log(e.currentTarget.dataset);
+  })
+})
+
+ 
+
+
+
   function displayMenuItems(menuItems) {
     let displayMenu = menuItems.map(function (item) {
-      // console.log(item);
+      
   
       return `<article class="menu-item">
             <img src=${item.img} alt=${item.title} class="photo" />
