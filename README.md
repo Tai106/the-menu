@@ -1,10 +1,7 @@
-# the-menu
+# The-Menu
 
 # Description
-* 
-
-# User Story
-  
+* Showcasing the daily menu of your favorite restaurant. 
 
 # Tech Used
 * JavaScript

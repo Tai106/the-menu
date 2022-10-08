@@ -74,7 +74,7 @@ const menu = [
   ];
 
   const sectionCenter = document.querySelector(".section-center");
-  const btnContainer = document.querySelector(".btn-container")
+  const btnContainer = document.querySelector(".btn-container");
 
 
     
@@ -140,9 +140,9 @@ function displayMenuItems(menuItems) {
           }
         });
         if (category === "all") {
-          diplayMenuItems(menu);
+          displayMenuItems(menu);
         } else {
-          diplayMenuItems(menuCategory);
+          displayMenuItems(menuCategory);
         }
       });
     });
